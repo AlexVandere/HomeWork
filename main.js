@@ -25,7 +25,7 @@ if (Сity === ukr) {
 } else if (Сity === uk) {
   alert("Ти живеш у столиці Великої Британії");
 
-}else if (Сity==null) {
+}else if (Сity === null) {
    alert('Шкода, що Ви не захотіли ввести своє,місце проживаня')
 
 }else {
@@ -49,7 +49,7 @@ alert('круто ти хоч стати'+':'+Sport)
 
  }else if (Sport==null){
    alert('Шкода, що Ви не захотіли ввести,ваш улюблений вид спорту')
- 
+ console.log(Sport)
  }
 
 
