@@ -4,9 +4,9 @@ let Sport = prompt('Ваш улюблений вид спорту')
 
 
 
-let ukraineCapital = "Київ";
-let usaCapital = "Вашингтон";
-let ukCapital = "Лондон";
+let ukr = "Київ";
+let usa = "Вашингтон";
+let uk = "Лондон";
 
 
  if(Age){
@@ -18,36 +18,36 @@ let ukCapital = "Лондон";
  }
 
 
-if (Sport === ukraineCapital) {
+if (Сity === ukr) {
   alert("Ти живеш у столиці України");
-} else if (Sport === usaCapital) {
+} else if (Сity === usa) {
   alert("Ти живеш у столиці Сполучених Штатів");
-} else if (Sport === ukCapital) {
+} else if (Сity === uk) {
   alert("Ти живеш у столиці Великої Британії");
 
-}else if (Sport==null) {
+}else if (Сity==null) {
    alert('Шкода, що Ви не захотіли ввести своє,місце проживаня')
 
 }else {
-  alert("Ти живеш у місті " + Sport );
+  alert("Ти живеш у місті " + Сity );
 }
 
 
 
   //№2 Частина 
- if(Сity=='футбол'){
-  Сity='Кріштіано Роналдо'
-alert('круто ти хоч стати'+':'+Сity)
+ if(Sport=='футбол'){
+  Sport='Кріштіано Роналдо'
+alert('круто ти хоч стати'+':'+Sport)
  
- }else if (Сity=='Бокс'){
-   c='Олексадр Усик'
-   alert('круто ти хоч стати'+' :'+Сity)
+ }else if (Sport=='бокс'){
+  Sport='Олексадр Усик'
+   alert('круто ти хоч стати'+' :'+Sport)
 
- }else if (Сity=='Баскетбол'){
-   c='Шакила О`нил'
-   alert('круто ти хоч стати'+' :'+Сity)
+ }else if (Sport=='баскетбол'){
+  Sport='Шакила О`нил'
+   alert('круто ти хоч стати'+' :'+Sport)
 
- }else if (Сity==null){
+ }else if (Sport==null){
    alert('Шкода, що Ви не захотіли ввести,ваш улюблений вид спорту')
  
  }
