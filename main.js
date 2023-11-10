@@ -1,58 +1,86 @@
- let Age= prompt('Дата вашого нарожденя')
-let Сity = prompt('Місце проживаня')
-let Sport = prompt('Ваш улюблений вид спорту')
 
-
-
-let ukr = "Київ";
-let usa = "Вашингтон";
-let uk = "Лондон";
-
-
- if(Age){
-    alert(Age)
-
- }else if (Age==null){
-   
-   alert('Шкода, що Ви не захотіли ввести свій,Дата вашого нарожденя')
- }
-
-
-if (Сity === ukr) {
-  alert("Ти живеш у столиці України");
-} else if (Сity === usa) {
-  alert("Ти живеш у столиці Сполучених Штатів");
-} else if (Сity === uk) {
-  alert("Ти живеш у столиці Великої Британії");
-
-}else if (Сity === null) {
-   alert('Шкода, що Ви не захотіли ввести своє,місце проживаня')
-
-}else {
-  alert("Ти живеш у місті " + Сity );
+//#1
+for(let i = 10 ;i<= 20 ;i ++){
+    console.log('#1' , i+',')
+}
+//#2
+for(let i = 10; i< 20; i++){
+    console.log('#2' , i**2)
 }
 
 
+//#3
+for(let i = 0 ; i<= 10;i++){
+    b =i*7
+    console.log('#3' , b)
+}
+//#4
+let sum = 0
+for (let i = 1; i <= 15; i++) {
 
-  //№2 Частина 
- if(Sport=='футбол'){
-  Sport='Кріштіано Роналдо'
-alert('круто ти хоч стати'+':'+Sport)
- 
- }else if (Sport=='бокс'){
-  Sport='Олексадр Усик'
-   alert('круто ти хоч стати'+' :'+Sport)
+sum+=i
+    
+}
+console.log('#4' , sum)
 
- }else if (Sport=='баскетбол'){
-  Sport='Шакила О`нил'
-   alert('круто ти хоч стати'+' :'+Sport)
+//#5
+let num = 1;
+for (let i = 15; i <= 35; i++) {
+    num *= i;
+    
+}
+console.log('#5' , num)
+//#6
+let res = 0
 
- }else if (Sport==null){
-   alert('Шкода, що Ви не захотіли ввести,ваш улюблений вид спорту')
- console.log(Sport)
- }
+for(let i = 1 ; i < 500 ; i ++){
+    res += i
+    
+  
+}
+console.log('#6' , res/500)
+//#7
+for (let i = 30 ; i<= 80; i ++){
 
+    console.log('#7' , i++)
+}
+//#8
+for(let i = 100; i<= 200 ; i++){
 
+    if(i%3 === 0){
 
+        console.log('#8' , i)
+    }
 
+}
+//#9
+for(let i = 0 ; i <= 9 ; i ++ ){
 
+    if(8 % i === 0){
+        console.log('#9' , i)
+    }
+}
+//#10
+for(let i = 0 ; i <= 9 ; i ++ ){
+
+    if(8 % i === 0 && i !== 1){
+        console.log('#10' , i)
+    }
+}
+//#11
+let sum1 = 0
+
+for(let i = 0 ; i <= 9 ; i ++ ){
+    
+    if(8 % i === 0 && i !== 1){
+        sum1 += i
+      
+    }
+}
+console.log('#11' , sum1)
+
+//#12 
+for(let i = 1 ; i<= 10;i++){
+    
+    console.log('#12' , i*10)
+}
