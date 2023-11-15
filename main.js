@@ -9,4 +9,3 @@ a.sort()
 
 alert(a)
 
-g
