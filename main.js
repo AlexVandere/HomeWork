@@ -5,8 +5,8 @@ for(let i = 0; i < b ;i++){
  a.push(g)
 }
 a.splice( 2 , 3)
-a.sort()
+a.sort(b,a => {
+     return a-b
+})
 
 alert(a)
-
-g
