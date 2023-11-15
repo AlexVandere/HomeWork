@@ -10,3 +10,4 @@ a.sort(b,a => {
 })
 
 alert(a)
+console.log()
